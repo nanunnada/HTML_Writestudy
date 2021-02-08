@@ -1,0 +1,141 @@
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1{
+    font-size:48px;
+    font-weight: 100;
+}
+
+.contents1{
+    font-size:20px;
+    font-weight: lighter;
+}
+
+.contents2{
+    font-size: 24px;
+}
+
+.intro_bg{
+    background-image:url("img/img.jpg");
+    width:1920px;
+    height:718px;
+}
+
+.header{
+    display:flex;
+    width:1280px;
+    margin: auto;
+    height: 86px;
+}
+
+.search_area{
+    width: 300px;
+    height: 40px;
+    background: rgba(0,0,0,0.5);
+    border-radius: 5px;
+    margin-top: 24px;
+}
+
+.search_area > form > input{
+    border: none;
+    width:250px;
+    height: 40px;
+    background: rgba(0,0,0,0.0);
+    color:#fff;
+    padding-left: 10px;
+}
+.search_area > form > span{
+    width:50px;
+    color:#fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.nav{
+    display:flex;
+    justify-content: flex-end;
+    width:980px; /*calc(1280px-300px)이 안먹힘*/
+    line-height: 86px;
+}
+
+.nav >li{
+    margin-right: 84px;
+}
+
+.nav >li > a{
+    color:#fff;
+}
+
+.intro_text{
+    width:100%;
+    margin: 231px auto 231px auto; /*상우하좌 순*/
+    text-align:center; 
+}
+
+.intro_text > h1,
+.intro_text > h4{
+    color:white;
+}
+
+.amount{
+    position: relative;
+    top:-66px; /*현재위치에서 강제 포지션 이동*/
+    display: flex;/*해당 하는 갯수만큼 나눠주는 문법*/
+    width: 1280px;
+    margin: auto;
+    background-color:white;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /*명암(우,하,흐려짐)*/
+}
+.amount > li{
+    flex: 1;
+    height: 132px;
+}
+.amount > li > div{
+    color: black;
+    text-align: center;
+    height: 57px;
+    margin-top: 37px;
+}
+
+.amount >li:not(:last-child)>div{
+    border-right:1px solid #E1E1E1; /*가운데 선때문에*/
+}
+
+.main_text0{
+    width: 1920px;
+    height: 601px;
+    margin-top:-132px;
+    background-color: #f1f2f3;
+}
+
+.main_text0>h1{
+    padding-top: 116px;
+    text-align: center;
+}
+
+.main_text0>.contents1{
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    width: 1280px;
+    height: 302px;
+    margin:auto;
+}
+
+.icons>li{
+    flex:1;
+    background-color:white;
+    margin-top: 49px;
+    height: 302px;
+}
+
+.icons >li:not(:last-child){
+    margin-right:20px;
+}
