@@ -1,0 +1,46 @@
+/* 공통 */
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+/* mapletable */
+.mapletable{
+    width: 5335px;
+    height: 6000px;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+table, td, th{
+    border: 1px solid red;
+}
+
+td{
+    font-size: 15px;
+}
+
+.img{
+    width: 35px;
+    text-align: center;
+}
+
+.skill{
+    width: 150px;
+    text-align: center;
+}
+
+.job{
+    width: 150px;
+    text-align: center;
+}
+
+.lv1, .lv2, .lv3, .lv4, .lv5, .lv6, .lv7, .lv8, .lv9, .lv10{
+    width: 500px;
+}

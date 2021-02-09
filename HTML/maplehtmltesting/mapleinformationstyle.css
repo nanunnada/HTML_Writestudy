@@ -1,0 +1,217 @@
+/* 공통 */
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* intro */
+
+.intro{
+    background-image:url(mapleimg/mainimg.jpg);
+    width: 1920px;
+    height: 718px;
+}
+
+.header{
+    display:flex;
+    justify-content: flex-end;
+    width: 1280px;
+    line-height: 86px;
+    margin: auto;
+}
+
+.header > li{
+    margin-right: 84px;
+}
+
+.header > li > a{
+    color:#fff;
+}
+
+.introducing{
+    margin-top:330px;
+    text-align: center;
+}
+
+.introducing > h1{
+    color:#fff;
+}
+
+/* intro end */
+/* mp_mid1 */
+
+.mp_mid1{
+
+    width: 1920px;
+    height: 350px;
+    margin: auto;
+    background-image:url(mapleimg/mp_mid1_img.jpg);
+}
+
+/* mp_mid1 end */
+/* mp_mid2 */
+
+.mp_mid2{
+
+    width: 1920px;
+    height: 920px;
+    margin: auto;
+    background-image:url(mapleimg/mp_mid2_img.jpg);
+}
+
+/* mp_mid2 end */
+/* mp_end */
+
+.mp_end{
+
+    width: 1920px;
+    height: 1358px;
+    margin: auto;
+    background-image:url(mapleimg/mp_end.jpg);
+}
+
+/* mp_end */
+/* conten1 */
+
+.content1{
+    position: relative;
+    top:-2718px;
+    display: flex;
+    width: 960px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.content1 > li{
+    flex: 1;
+    height: 200px;
+}
+
+.content1 > li > .content1_img_mbti{
+    text-align: center;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.content1 > li > .content1_mbti{
+    color: black;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+}
+
+.content1 > li > .content1_img_중독{
+    text-align: center;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.content1 > li > .content1_중독{
+    color: black;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+}
+
+.content1 > li:not(:last-child) > div{
+    border-right:1px solid #E1E1E1; /*가운데 선때문에*/
+}
+
+/* content1 end */
+/* conten2 */
+
+.content2{
+    position: relative;
+    top:-2578px;
+    display: flex;
+    width: 960px;
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.content2 > li{
+    flex: 1;
+    height: 200px;
+}
+
+.content2 > li > .content2_img_level{
+    text-align: center;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.content2 > li > .content2_level{
+    color: black;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+}
+
+.content2 > li > .content2_img_union{
+    text-align: center;
+    height: 60px;
+    margin-top: 40px;
+}
+
+.content2 > li > .content2_union{
+    color: black;
+    text-align: center;
+    height: 60px;
+    font-size: 30px;
+}
+
+.content2 > li:not(:last-child) > div{
+    border-right:1px solid #E1E1E1; /*가운데 선때문에*/
+}
+
+/* content2 end */
+/* conten3 */
+
+.content3{
+    position: relative;
+    top:-1858px;
+    display: flex;
+    width: 960px;
+    height: 200px; 
+    margin: auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    background-color: white;
+}
+
+.content3 > li{
+    flex: 1;
+    height: 200px;
+}
+
+.content3 > li> .content3_1{
+    color: black;
+    text-align: center;
+    height: 60px;
+    margin-top: 73px;
+    font-size: 30px;
+}
+
+.content3 > li > .content3_2{
+    color: black;
+    text-align: center;
+    height: 60px;
+    margin-top: 73px;
+    font-size: 30px;
+}
+
+.content3 > li:not(:last-child) >div{
+    border-right:1px solid #E1E1E1; /*가운데 선때문에*/
+}
+
+/* content3 end */

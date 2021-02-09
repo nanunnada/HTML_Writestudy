@@ -1,0 +1,30 @@
+/* 공통 */
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1{
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 300;
+}
+
+/* intro */
+
+.intro{
+    width: 1920px;
+    height: 3000px;
+    margin: auto;
+    background-image:url("mapleimg/madeby뎅애.jpg");
+}
+
+.intro > h1{
+    padding-top:200px;
+    margin:auto;
+    text-align: center;
+}

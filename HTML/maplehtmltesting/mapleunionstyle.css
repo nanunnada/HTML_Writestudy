@@ -1,0 +1,14 @@
+/* 공통 */
+*{
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+h1{
+    font-size: 30px;
+    font-weight: 500;
+}
